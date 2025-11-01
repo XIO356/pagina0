@@ -1,0 +1,98 @@
+/* ================================
+   CONFIGURACIÓN GENERAL
+=================================== */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(250, 246, 242);
+}
+
+/* ================================
+   FUENTES IMPORTADAS
+=================================== */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/* ================================
+   SECCIÓN PRINCIPAL
+=================================== */
+.principal {
+  background-image: url(https://portal.andina.pe/EDPfotografia3/Thumbnail/2019/07/04/000598215W.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+/* ================================
+   IMÁGENES LATERALES
+=================================== */
+.imagen-izquierda {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  width: 250px;
+}
+
+.imagen-derecha {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  width: 300px;
+}
+
+/* ================================
+   TÍTULO CENTRAL
+=================================== */
+.titulo {
+  position: relative;
+  top: 30%;
+  transform: translateY(-25%);
+}
+
+.linea1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+.linea2 {
+  font-family: 'Great Vibes', cursive; 
+  font-size: 7em;
+  color: rgb(242, 255, 184);
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+/* ================================
+   ENLACES INFERIORES
+=================================== */
+.enlaces {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.enlaces a {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  text-decoration: none;
+  padding: 12px 45px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.enlaces a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
